@@ -1,0 +1,6 @@
+浮点型 float，double 之间比较用Double.compare（a,b）;
+如果a==b，则返回 0
+如果a>b，则返回正数
+如果a<b，则返回负数
+引用型 String 用 a.quals(b);
+其余类型可用用 ==
